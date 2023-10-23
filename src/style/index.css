@@ -1,0 +1,160 @@
+/*seletor universal que define estilos básicos para todos os elementos HTML*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*definir o estilo para o corpo da página*/
+body {
+  background-color: rgb(238, 238, 238);
+}
+/*cria um contêiner que centraliza o conteúdo na página*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+/*estilizar o cabeçalho da página*/
+.header {
+  background-color: black;
+  width: 100vw;
+  padding: 12px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+/*definir o menu com elementos alinhados em horizontal e algum espaço entre eles*/
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+/*remover os marcadores de lista*/
+.list {
+  list-style-type: none;
+ 
+}
+/*estilizar os links no menu*/
+.link {
+  padding: 12px;
+  color: white;
+  border-style: solid ;
+  border-color: rgb(36, 36, 36);
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: rgb(117, 117, 117);
+}
+
+/*efeito quando passa o mouse em cima*/
+.link:hover {
+  background-color: #424242;
+  color: black;
+}
+/*definir um contêiner flexível para seções da página com elementos alinhados em horizontal*/
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+/*definir estilos para imagens*/
+.img {
+  width: 400px;
+  height: 300px;
+  border-style: solid ;
+  
+}
+/*definir um contêiner para descrições com texto*/
+.descr {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+/*estiliza os títulos das descrições*/
+.title {
+  font-size: 32px;
+  font-weight: bolder;
+}
+/*definir o tamanho do parágrafo*/
+.p {
+  font-size: 20px;
+}
+/*definir os espaçamento entre as caixas de texto*/
+.education-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+/*estilizar os itens*/
+.education-item {
+  background-color: #222;
+  color: white;
+  border-style: double;
+  padding: 8px;
+}
+/*definir um contêiner de grade*/
+.project-container {
+  display: grid;
+  gap: 30px;
+  list-style: none;
+}
+/*estilizar os itens*/
+.project-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: gray;
+  padding: 8px;
+  color: white;
+  border-radius: 4px;
+
+}
+/*estilizar a cor do link*/
+.project-link {
+color: rgb(255, 255, 255);
+}
+/*efeito quando passa o mouse em cima do link*/
+.project-link:hover {
+  color: blue;
+}
+/*estilizar o formulário*/
+.form {
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+  width: 100vh;
+  gap: 10px;
+}
+/*criar grupos de elementos do formulário*/
+.form-group {
+  display: flex;
+  flex-direction: column ;
+  gap: 12px;
+  font-size: 20px;
+}
+/*alterar a cor da borda da caixa de texto*/
+input, textarea {
+  padding: 4px;
+  outline-color: blue;
+}
+/*estilizar botões e o cursor do mouse*/
+.button {
+  width: 100%;
+  margin-top: 6px;
+  background-color: rgb(0, 0, 0);
+  border-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+
+
+
+
